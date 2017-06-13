@@ -13,6 +13,8 @@
 		9B3CCA651EF02EF500396211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3CCA641EF02EF500396211 /* Assets.xcassets */; };
 		9B3CCA681EF02EF500396211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3CCA661EF02EF500396211 /* LaunchScreen.storyboard */; };
 		9B3CCA731EF02EF500396211 /* SlideTransitionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CCA721EF02EF500396211 /* SlideTransitionsUITests.swift */; };
+		9B3CCA7E1EF0493D00396211 /* SlideAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CCA7D1EF0493D00396211 /* SlideAnimationController.swift */; };
+		9B3CCA801EF04B2C00396211 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3CCA7F1EF04B2C00396211 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		9B3CCA6E1EF02EF500396211 /* SlideTransitionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideTransitionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3CCA721EF02EF500396211 /* SlideTransitionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideTransitionsUITests.swift; sourceTree = "<group>"; };
 		9B3CCA741EF02EF500396211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B3CCA7D1EF0493D00396211 /* SlideAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideAnimationController.swift; sourceTree = "<group>"; };
+		9B3CCA7F1EF04B2C00396211 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,14 @@
 		9B3CCA5C1EF02EF500396211 /* SlideTransitions */ = {
 			isa = PBXGroup;
 			children = (
+				9B3CCA7D1EF0493D00396211 /* SlideAnimationController.swift */,
 				9B3CCA5D1EF02EF500396211 /* AppDelegate.swift */,
 				9B3CCA5F1EF02EF500396211 /* ViewController.swift */,
 				9B3CCA611EF02EF500396211 /* Main.storyboard */,
 				9B3CCA641EF02EF500396211 /* Assets.xcassets */,
 				9B3CCA661EF02EF500396211 /* LaunchScreen.storyboard */,
 				9B3CCA691EF02EF500396211 /* Info.plist */,
+				9B3CCA7F1EF04B2C00396211 /* SecondViewController.swift */,
 			);
 			path = SlideTransitions;
 			sourceTree = "<group>";
@@ -201,7 +207,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B3CCA801EF04B2C00396211 /* SecondViewController.swift in Sources */,
 				9B3CCA601EF02EF500396211 /* ViewController.swift in Sources */,
+				9B3CCA7E1EF0493D00396211 /* SlideAnimationController.swift in Sources */,
 				9B3CCA5E1EF02EF500396211 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
